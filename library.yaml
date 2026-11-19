@@ -1,0 +1,22 @@
+library:
+  skills:
+    - name: code-review
+      description: Review the current diff for bugs, missing tests and unclear names
+      source: https://github.com/J-HernandezInzunza/loadout-demo/blob/main/skills/code-review/SKILL.md
+    - name: release-notes
+      description: Turn merged pull requests into release notes grouped by area
+      source: https://github.com/J-HernandezInzunza/loadout-demo/blob/demo-stale/skills/release-notes/SKILL.md
+    - name: test-first
+      description: Write a failing test that pins a bug before touching the fix
+      source: https://github.com/J-HernandezInzunza/loadout-demo/blob/main/skills/test-first/SKILL.md
+    - name: pr-description
+      description: Describe a branch for review with what changed, why, and how to check it
+      source: https://github.com/J-HernandezInzunza/loadout-demo/blob/main/skills/pr-description/SKILL.md
+    - name: commit-message
+      description: Write a commit message in the team's format, with the ticket key
+      source: https://github.com/J-HernandezInzunza/loadout-demo/blob/main/skills/commit-message/SKILL.md
+  agents:
+    - name: security-reviewer
+      description: Checks a change for secrets, injection and unsafe defaults
+      source: https://github.com/J-HernandezInzunza/loadout-demo/blob/main/agents/security-reviewer.md
+  prompts:
